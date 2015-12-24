@@ -1,0 +1,40 @@
+div, a, p, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, input, button, img, body{margin:0px; padding:0px; border:0px; list-style-type:none; text-decoration:none;}
+
+.xnHome{width:504px; height:404px; background:url(../images/background.jpg) no-repeat; font-size:12px; color:#333; line-height:20px; position:relative; z-index:10;}
+.xnHome .xnCenter{display:block; width:504px; height:331px; position:absolute; top:73px; left:0; z-index:99; background:#FF9; filter:alpha(opacity=0);  -moz-opacity:0; opacity:0;}
+
+/* Í·²¿ */
+.xnHome .xnHome_top{width:504px; height:73px; background:url(../images/top.jpg) no-repeat;}
+/* »î¶¯½éÉÜ£¨×ó±ßÀ¸£© */
+.xnHome_top .xnB{float:left; width:330px; padding-left:68px; margin-top:12px; font-family:"Î¢ÈíÑÅºÚ"; height:48px; color:#000; overflow:hidden;}
+.xnHome_top .xnB span{color:#CF0168;}
+.xnHome_top .xnR span{color:#FF0;}
+.xnHome_top .xnB li{ color:#fff;font-size:18px;line-height:24px;}
+/* ÓÒ±ßÀ¸ */
+.xnHome_top .xnHome01{float:right; text-align:right;}
+/* ¹Ø±Õ´°¿Ú */
+.xnHome .xnA00{display:inline-block; width:40px; height:20px;}
+.xnHome_top .xnHome01 img{display:block; padding:10px 5px 0 0;}
+
+/* µ×²¿ */
+.xnHome .xnHome_bt{width:504px; height:323px; padding-top:8px; background:url(../images/bt.jpg) no-repeat;}
+/* ×ó±ßÀ¸ */
+.xnHome_bt .xnHome_left{float:left; width:365px;}
+.xnHome .xnP1{padding:12px 0 0 32px; color:#336699;}
+.xnHome .red{color:#333;}
+.xnHome .xnP2{width:330px; padding-left:15px;}
+.xnHome .xnP2 span{display:block; color:#999;}
+.xnHome .xnP2 strong{font-weight:normal;}
+.xnHome .xnP2 strong span{display:inline; color:#CC0066;}
+/* ±í¸ñ */
+.xnHome form{width:335px; height:90px; margin-top:105px; padding-left:15px;}
+.xnHome form .xnQuestion{float:left; width:250px; color:#999; border:none;}
+.xnHome form .xnSubmit{float:right; width:85px; height:85px; background:none; border:none; cursor:pointer;}
+/* ÓÒ±ßÀ¸£¨×¨¼Ò£© */
+.xnHome_bt .xnHome_right{float:right;}
+
+
+/* xn_1112ÐÞ¸Ä */
+#kqp a{color:#000;}
+#kqp a span{color:#FF0;}
+

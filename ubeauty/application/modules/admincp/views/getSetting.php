@@ -1,0 +1,1 @@
+<? _T($setting[0]->content) ?>

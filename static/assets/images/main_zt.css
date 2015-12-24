@@ -1,0 +1,353 @@
+@charset "gb2312";
+/* CSS Document */
+div, p, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, img, body { margin:0px; padding:0px; list-style-type:none; text-decoration:none; font-size:12px; border:0px; font-family:"微软雅黑", "黑体"; }
+clearFix:after { clear:both; display:block; visibility:hidden; height:0; line-height:0; content:''; }
+.clearFix { zoom:1; clear:both; }
+.blank2 { clear:both; font-size:0; line-height:0; height:2px; }
+.blank6 { clear:both; font-size:0; line-height:0; height:6px; }
+.blank8{ clear:both; height:8px; overflow:hidden; display:block; }
+.blank10 { clear:both; font-size:0; line-height:0; height:10px; }
+.blank15 { clear:both; font-size:0; line-height:0; height:15px; }
+.blank20 { clear:both; font-size:0; line-height:0; height:20px; }
+.blank30 { clear:both; font-size:0; line-height:0; height:30px; }
+a { text-decoration:none; color:black; }
+a:visited {/*color:black*/ }
+a:hover, a:active, a:focus { color: #bf0050; text-decoration: none; outline: none; }
+html { overflow-x:hidden }
+/*-----------------------头部样式----------------------------*/
+.xnHeader020 { width:100%; height:auto; float:Left; }
+.xnHeader020 .Top_Subnav { width:100%; height:33px; float:Left; background:#b5004f; }
+.xnHeader020 .Top_Subnav .Main { width:1200px; height:33px; margin:0px auto; }
+.xnHeader020 .Top_Subnav .Main .Left { width:200px; height:33px; padding-Left:20px; float:Left;  position:relative;}
+.xnHeader020 .Top_Subnav .Main .Left .gzwm { width:60px; height:33px; line-height:33px; color:#FFF; font-size:12px; float:Left; }
+.xnHeader020 .Top_Subnav .Main .Left a { width:20px; height:20px; margin:5px 2px 0px 2px; display:block; float:Left; }
+.xnHeader020 .Top_Subnav .Main .Left .sina { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat 0px 0px; }
+.xnHeader020 .Top_Subnav .Main .Left .weichat { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat -20px 0px; }
+
+.xnHeader020 .Top_Subnav .Main .Left .weichat .wicon{width:162px; height:172px; left:-32px; top:33px; display:block; position:absolute; background:url(b_er2.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/article/b_er2.png*/ no-repeat center top;  display:none\0; *display:none;opacity:0; transform: scale(0);  -webkit-transform: scale(0); transform-origin: 100% 70%;  -webkit-transform-origin: 100% 70%;  transition: transform ease .3s,opacity ease .3s; -webkit-transition: all ease .3s;z-index:99;}
+.xnHeader020 .Top_Subnav .Main .Left .weichat:hover .wicon{display: block; *display:block; transform: scale(1); -webkit-transform: scale(1);opacity: 1; top:33px; left:-32px;z-index:99;}
+
+
+.xnHeader020 .Top_Subnav .Main .Left .qq { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat -40px 0px; }
+.xnHeader020 .Top_Subnav .Main .Left .lx { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat -60px 0px; }
+.xnHeader020 .Top_Subnav .Main .Left .sina:hover { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat 0px -20px; }
+.xnHeader020 .Top_Subnav .Main .Left .weichat:hover { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat -20px -20px; }
+.xnHeader020 .Top_Subnav .Main .Left .qq:hover { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat -40px -20px; }
+.xnHeader020 .Top_Subnav .Main .Left .lx:hover { background:url(order-c1-ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/order-c1-ico.jpg*/ no-repeat -60px -20px; }
+.xnHeader020 .Top_Subnav .Main .Right { width:620px; height:28px; padding-Right:20px; float:Right; margin-top:5px; }
+.xnHeader020 .Top_Subnav .Main .Right .by { width:320px; height:28px; line-height:24px; color:#FFF; font-size:12px; float:Left; }
+.xnHeader020 .Top_Subnav .Main .Right .Search_Frame { width:200px; height:20px; float:Left; border:1px solid #242424; background:#FFF; font-size:12px; color:#999; margin:0px; padding:0px; }
+.xnHeader020 .Top_Subnav .Main .Right .Search_Buttom { width:22px; height:22px; float:Left; background:url(top_search.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/top_search.jpg*/ no-repeat center top; border:0px; cursor: pointer; margin:0px; padding:0px; }
+.xnHeader020 .Top_Subnav .Main .Right .Search_Hot { width:50px; height:22px; float:Left; background:url(top_hot.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/top_hot.jpg*/ no-repeat center top; border:0px; cursor: pointer; margin-Left:10px; display:block; }
+.xnHeader020 .Top_Subnav .Main .Right .Search_Hot:hover { background:url(top_hot.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/top_hot.jpg*/ no-repeat center bottom; }
+.xnHeader020 .xnCen { width:1200px; height:153px; margin:0px auto; }
+.xnHeader020 .xnCen .xnLogo { width:555px; height:116px; float:Left; margin:15px 0px 0px 10px; background:url(logo.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/logo.jpg*/ no-repeat center top; }
+.xnHeader020 .xnCen .xnLogo a{width:555px; height:116px;/*margin:15px 0px 0px 10px;*/ display:block;}
+.xnHeader020 .xnCen .xnTtel { /*background: url("/huameiTemplets/201407/images/top_tel.jpg") no-repeat scroll center bottom rgba(0, 0, 0, 0);*/  float: left; height: 64px; padding: 50px 0 0 20px; width: 578px;background: url("top_tel.jpg")/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/top_tel.jpg*/ no-repeat!important center top; }
+.xnHeader020 .Top_Subnav .Main .Right .Btn_Search_Hot{ position:relative;}
+.xnHeader020 .Top_Subnav .Main .Right .Btn_Search_Hot #child1 { background: none repeat scroll 0 0 #fff; border: 1px solid #dfdfdf; box-shadow: 0 0 15px #888; display: none; height: 150px; line-height: 1.5; position: absolute; right: 0; top: 27px; width: 164px; z-index: 999; }
+.xnHeader020 .Top_Subnav .Main .Right .Btn_Search_Hot #child1 a { display: inline-block; margin-left: 10px; margin-top: 5px; }
+/*-----------------------导航样式----------------------------*/
+/*-----------------------菜单样式----------------------------*/
+*html { background-image:url(d)/*tpa=http://www.ubeauty.cn/skins/201208/css/d*/; background-attachment:fixed; }
+.xnHeader020 #nav { width:100%; height:43px; background: url(ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico.jpg*/ repeat-x; }
+.xnHeader020 .nav { width:1200px; margin:0px auto; height:43px; font-family:"微软雅黑", "黑体"; border-left:1px solid #191919; position:relative; z-index:5; }
+.xnHeader020 .nav a { text-decoration:none }
+.xnHeader020 .nav-r { width: 172px; height: 32px; line-height: 30px; text-align: center; float: right; margin-top: 6px; }
+.xnHeader020 .nav-r a { width: 172px; height: 32px; line-height: 30px; background:url(menu_search.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/menu_search.jpg*/ no-repeat center top; color: #ffffff; display: block; font-size: 16px; }
+.xnHeader020 .nav-ul { width:785px; float:left; border-left:1px solid #353535; }
+.xnHeader020 .nav-ul li { width:110px; line-height:43px; float:left; font-size:16px; color:#fff; position:relative; height:43px; overflow:hidden; background:url(nav_right.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/nav_right.jpg*/ no-repeat right top; }
+.xnHeader020 .nav-ul li a { width:110px; text-align:center; color:#fff; height:43px; display:block; text-decoration:none; }
+.xnHeader020 .nav-ul span { position: absolute; left: 0; width: 117px; cursor:pointer; }
+.xnHeader020 .nav-ul .out { top:0px; width:110px; height:43px; line-height:43px; color:#fff; text-align:center; }
+.xnHeader020 .nav-ul .over { top:-43px; width:106px; height:43px; line-height:43px; text-align:center; color:#fff; background:#b5004f; }
+.xnHeader020 .nav-l { width:233px; height:43px; float:left; position:relative; z-index:98; }
+.xnHeader020 .nav-l-span { height:43px; line-height:43px; padding-left:17px; border-left:1px solid #353535; border-right:1px solid #191919; display:block; font-size:16px; color:#fff; position: relative; }
+.xnHeader020 .nav-l-span i { width:15px; height:15px; position:absolute; top:15px; right:15px; display:block; background:url(pic-png.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/pic-png.png*/ no-repeat; *_background:none;
+-webkit-transition: -webkit-transform 0.4s ease-out; -moz-transition: -moz-transform 0.4s ease-out; -ms-transition: -moz-transform 0.3s ease-out; -o-transition: -moz-transform 0.3s ease-out; transition: transform 0.4s ease-out; }
+.xnHeader020 .nav-l-span:hover i { background:url(pic-png-hover.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/pic-png-hover.png*/ no-repeat; }
+.xnHeader020 .nav-l-hover i { background:url(pic-png-hover.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/pic-png-hover.png*/ no-repeat; -webkit-transform: rotate(180deg); -moz-transform: rotate(180deg); transform: rotate(180deg); }
+.xnHeader020 .nav-l-hover { background:#b5004f; }
+.xnHeader020 .nav-submenu { width:232px; position:absolute; left:0px; top:43px; z-index:98; overflow:hidden; background:#FFF; }
+.xnHeader020 .nav-submenu-xl { width:869px; height:472px; position:absolute; left:231px; top:43px; z-index:99; }
+/*-----------------------二级菜单样式----------------------------*/
+.xnHeader020 #submenu { border-right:1px solid #f1f1f1; position:relative; }
+.xnHeader020 .submenu1 { width:230px; height:106px; padding-left:3px; padding-top:10px; padding-bottom:2px; border-bottom:1px solid #e5e5e5; background:#fff; position:absolute; left:0px; bottom:0px; _top:-105px; }
+.xnHeader020 #submenu1 { z-index:999; }
+.xnHeader020 #submenu2 { z-index:998; }
+.xnHeader020 #submenu3 { z-index:997; }
+.xnHeader020 #submenu4 { z-index:996; }
+.xnHeader020 .submenu1 h3 { padding-left:50px; height:25px; margin-bottom:7px; line-height:25px; font-family:"微软雅黑", "黑体"; font-size:16px; }
+.xnHeader020 .submenu1 h3 a { display:block; color:#000; text-decoration:none; }
+.xnHeader020 .submenu1-t1 { background:url(ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico.jpg*/ 18px -88px no-repeat; }
+.xnHeader020 .submenu1-t2 { background:url(ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico.jpg*/ 18px -112px no-repeat; }
+.xnHeader020 .submenu1-t3 { background:url(ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico.jpg*/ 18px -138px no-repeat; }
+.xnHeader020 .submenu1-t4 { background:url(ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico.jpg*/ 18px -162px no-repeat; }
+.xnHeader020 #submenu1-t5 { background:url(ico.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico.jpg*/ 18px -187px no-repeat; }
+.xnHeader020 .submenu1 ul { padding-left:15px; }
+.xnHeader020 .submenu1 li a { line-height:24px; margin-right:4px; padding:3px 5px; border-radius:2px; color:#000; }
+.xnHeader020 .submenu1:hover li a { color:#fff; }
+.xnHeader020 .submenu1 li a:hover { color:#b5004f; text-decoration:none; -webkit-transition: all .3s linear 0s;
+-moz-transition: all .3s linear 0s;
+-ms-transition: all .3s linear 0s;
+outline: none; star:expression(this.onFocus=this.blur());
+background:#fff; }
+.xnHeader020 .submenu1-hover { padding-left:0px; padding-top:7px; border:3px solid #b5004f; padding-bottom:0px; border-right:0px; background:#b5004f; }
+.xnHeader020 .submenu1-hover h3 { border:none; padding:0px; padding-left:50px; }
+.xnHeader020 .submenu1-hover h3 a { text-decoration:none; color:#fff; }
+.xnHeader020 .submenu1-hover h3 a:hover { color:#fff; }
+.xnHeader020 .submenu1-hover a { color:#fff; }
+.xnHeader020 .submenu1-hover li a { color:#fff; }
+.xnHeader020 .submenu1-hover .submenu1-t1 { background:url(ico2.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico2.jpg*/ 18px -88px no-repeat; }
+.xnHeader020 .submenu1-hover .submenu1-t2 { background:url(ico2.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico2.jpg*/ 18px -112px no-repeat; }
+.xnHeader020 .submenu1-hover .submenu1-t3 { background:url(ico2.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico2.jpg*/ 18px -138px no-repeat; }
+.xnHeader020 .submenu1-hover .submenu1-t4 { background:url(ico2.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico2.jpg*/ 18px -162px no-repeat; }
+.xnHeader020 .submenu1-hover #submenu1-t5 { background:url(ico2.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/ico2.jpg*/ 18px -187px no-repeat; }
+/*-----------------------三级菜单样式----------------------------*/
+
+.xnHeader020 .xl-menu { width:866px; height:468px; border:3px solid #b5004f; overflow:hidden; background:#fff; color:#3f3f3f; }
+.xnHeader020 .xl-menu-l { width:580px; height:auto; overflow:hidden; float:left; position:relative; }
+.xnHeader020 .xl-menu-l img{ margin-top:10px;}
+
+.xnHeader020 .xl-menu-l li { width:560px; height:auto; float:left; padding:12px 20px; border-bottom:1px solid #dfdfdf; }
+.xnHeader020 .xl-menu-l li .Project { width:80px; height:auto; font-size:14px; float:left; color:#b5004f; padding-top:2px; }
+.xnHeader020 .xl-menu-l li .Project a{  color:#b5004f; font-weight:bold }
+.xnHeader020 .xl-menu-l li .Project_1 { width:480px; height:auto; font-size:12px; float:left; color:#000; }
+.xnHeader020 .xl-menu-l li .Project_1 li { width:auto; height:25px; margin:0px 8px; line-height:20px; font-size:12px; float:left; border:0px; line-height:25px; padding:0px; }
+.xnHeader020 .xl-menu-l li .Project_1 li a { color:#000; text-decoration:none; }
+.xnHeader020 .xl-menu-l li .Project_1 li a:hover { color:#b5004f; }
+.xnHeader020 .xl-menu-l li .Project_1 li .b5004f { color:#986d04; }
+.xnHeader020 .xl-menu-r { width:212px; float:right; margin-right:18px; padding-top:8px; display:inline; }
+.xnHeader020 .xl-menu-r1 { height:300px; }
+
+.xnHeader020 .xl-menu-r1-t { height:35px; line-height:35px; font-family:"微软雅黑", "黑体"; font-size:16px; color:#91253b; }
+.xnHeader020 .xl-menu-r2 { }
+.xnHeader020 .xl-menu-r2-t { line-height:32px; font-family:"微软雅黑", "黑体"; font-size:16px; color:#91253b; border-top:1px #CCCCCC solid;}
+.xnHeader020 .xl-menu-r1-c { width:211px; height:117px;margin-bottom: 15px; border-bottom:1px solid #dfdfdf; overflow:hidden; position:relative;}
+.xnHeader020 .xl-menu-r1-c p{width:211px; height:25px; line-height:25px; color:#91253b;text-decoration:none; text-align:center; position:absolute; left:0px; bottom:0px; background:#fff; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; display:block; font-size:14px;display:block; }
+.xnHeader020 .xl-menu-r1-c a{ width:211px; height:117px;display:block;}
+
+
+
+
+
+.xnHeader020 .xl-menu-r1-d{width:211px; height:251px;position:relative;}
+
+
+.xnHeader020 .xl-menu-r1-d .bt{ width:70px; height:20px; float:right; position:absolute; top:0px; left:140px; }
+/*background:url(../images/Sub_qwzj_bbt.jpg) no-repeat center top;*/
+
+.xnHeader020 .xl-menu-r1-d .bt .Roll_butt { width:130px; height:10px; float:left; overflow:hidden;  padding-top:10px; }
+.xnHeader020 .xl-menu-r1-d .bt .Roll_butt .dian{ width:130px; height:10px; overflow:hidden;  margin:0px auto;}
+.xnHeader020 .xl-menu-r1-d .bt .Roll_butt a { width:16px; height:10px; background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 1px 0px; no-repeat;
+display:block; float:left; _background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+.xnHeader020 .xl-menu-r1-d .bt .Roll_butt a:hover { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+.xnHeader020 .xl-menu-r1-d .bt .Roll_butt .a1 { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+
+
+
+.xnHeader020 .xl-menu-r1-d2{width:211px; height:251px;position:relative;}
+
+
+.xnHeader020 .xl-menu-r1-d2 .bt{ width:70px; height:20px; float:right; position:absolute; top:0px; left:140px; }
+/*background:url(../images/Sub_qwzj_bbt.jpg) no-repeat center top;*/
+
+.xnHeader020 .xl-menu-r1-d2 .bt .Roll_butt { width:130px; height:10px; float:left; overflow:hidden;  padding-top:10px; }
+.xnHeader020 .xl-menu-r1-d2 .bt .Roll_butt .dian{ width:130px; height:10px; overflow:hidden;  margin:0px auto;}
+.xnHeader020 .xl-menu-r1-d2 .bt .Roll_butt a { width:16px; height:10px; background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 1px 0px; no-repeat;
+display:block; float:left; _background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+.xnHeader020 .xl-menu-r1-d2 .bt .Roll_butt a:hover { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+.xnHeader020 .xl-menu-r1-d2 .bt .Roll_butt .a1 { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+
+
+.xnHeader020 .xl-menu-r1-d3{width:211px; height:251px;position:relative;}
+
+
+.xnHeader020 .xl-menu-r1-d3 .bt{ width:70px; height:20px; float:right; position:absolute; top:0px; left:140px; }
+/*background:url(../images/Sub_qwzj_bbt.jpg) no-repeat center top;*/
+
+.xnHeader020 .xl-menu-r1-d3 .bt .Roll_butt { width:130px; height:10px; float:left; overflow:hidden;  padding-top:10px; }
+.xnHeader020 .xl-menu-r1-d3 .bt .Roll_butt .dian{ width:130px; height:10px; overflow:hidden;  margin:0px auto;}
+.xnHeader020 .xl-menu-r1-d3 .bt .Roll_butt a { width:16px; height:10px; background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 1px 0px; no-repeat;
+display:block; float:left; _background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+.xnHeader020 .xl-menu-r1-d3 .bt .Roll_butt a:hover { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+.xnHeader020 .xl-menu-r1-d3 .bt .Roll_butt .a1 { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+
+
+.xnHeader020 .xl-menu-r1-d4{width:211px; height:251px;position:relative;}
+
+
+.xnHeader020 .xl-menu-r1-d4 .bt{ width:70px; height:20px; float:right; position:absolute; top:0px; left:140px; }
+/*background:url(../images/Sub_qwzj_bbt.jpg) no-repeat center top;*/
+
+.xnHeader020 .xl-menu-r1-d4 .bt .Roll_butt { width:130px; height:10px; float:left; overflow:hidden;  padding-top:10px; }
+.xnHeader020 .xl-menu-r1-d4 .bt .Roll_butt .dian{ width:130px; height:10px; overflow:hidden;  margin:0px auto;}
+.xnHeader020 .xl-menu-r1-d4 .bt .Roll_butt a { width:16px; height:10px; background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 1px 0px; no-repeat;
+display:block; float:left; _background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+.xnHeader020 .xl-menu-r1-d4 .bt .Roll_butt a:hover { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+.xnHeader020 .xl-menu-r1-d4 .bt .Roll_butt .a1 { background:url(Sub_qwzj_rollbutt.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png*/ 15px 0px; no-repeat;_background:none;
+_filter:progid:dximagetransform.microsoft.alphaimageloader(src='/huameiTemplets/201407/images/Sub_qwzj_rollbutt.png', sizingMethod='crop');}
+
+
+
+
+
+/*.xnHeader .xl-menu-r1-c a:hover .xl-menu-r1-cp { width:211px; height:25px; line-height:25px; color:#91253b; font-weight:bold; text-decoration:none; text-align:center; position:absolute; left:0px; bottom:0px; background:#fff; filter:alpha(opacity=80); -moz-opacity:0.8; opacity:0.8; display:block; font-size:14px;}
+*/
+.xnHeader020 .xl-menu-r2-c { width:208px; height:auto; }
+.xnHeader020 .xl-menu-r2-c span { width:196px; line-height:20px; float:left; padding-left:14px; background:url(nav_sjfh.jpg)/*tpa=http://www.ubeauty.cn/skins/201208/images/nav_sjfh.jpg*/ no-repeat 5px 6px;}
+/*-----------------------三级菜单图片特效样式----------------------------*/
+.xl-menu-r1 .mod_goods_img { position:relative }
+.xl-menu-r1 .mod_goods_img a:before { content:''; position:absolute; width:25px; height:242px; top:0; left:-80px; overflow:hidden; background:-moz-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%); background:-webkit-gradient(linear, left top, right top, color-stop(0%, rgba(255, 255, 255, 0)), color-stop(50%, rgba(255, 255, 255, 0.4)), color-stop(100%, rgba(255, 255, 255, 0))); background:-webkit-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%); background:-o-linear-gradient(left, rgba(255, 255, 255, 0) 0, rgba(255, 255, 255, 0.4) 50%, rgba(255, 255, 255, 0) 100%); -webkit-transform:skewX(-25deg); transform:skewX(-25deg) }
+.xl-menu-r1 .mod_goods_img:hover a:before { -webkit-animation:aniBlink120 .4s ease-out forwards;
+-moz-animation:aniBlink120 .4s ease-out forwards;
+-o-animation:aniBlink120 .4s ease-out forwards;
+animation:aniBlink120 .4s ease-out forwards
+}
+@-webkit-keyframes aniBlink120 { from {
+left:-60px
+}
+to { left:265px }
+}
+@keyframes aniBlink120 { from {
+left:-60px
+}
+to { left:150px }
+}
+@-webkit-keyframes aniBlink60 { from {
+left:-30px
+}
+to { left:70px }
+}
+@keyframes aniBlink60 { from {
+left:-30px
+}
+to { left:70px }
+}
+/*-----------------------导航结束----------------------------*/
+
+/*-----------------------头部结束----------------------------*/
+
+/*-----------------------主体样式----------------------------*/
+/*项目 Main1*/
+
+.xnMain { width:1200px; height:auto; margin:0px auto; }
+.xnMain .xnM1 { width:1200px; height:auto; float:left; margin-top:20px; }
+.xnMain .xnM1 li { width:92px; height:75px; float:left;}
+.xnMain .xnM1 li a { width:92px; height:75px; float:left; display:block; text-decoration:none; }
+.xnMain .xnM1 li a p { line-height:25px; font-size:12px; text-align:center; color:#b5004f; padding-top:50px; }
+.xnMain .xnM1 .B1 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat 0px -82px; }
+.xnMain .xnM1 .B2 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -92px -82px; }
+.xnMain .xnM1 .B3 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -184px -82px; }
+.xnMain .xnM1 .B4 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -276px -82px; }
+.xnMain .xnM1 .B5 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -368px -82px; }
+.xnMain .xnM1 .B6 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -460px -82px; }
+.xnMain .xnM1 .B7 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -552px -82px; }
+.xnMain .xnM1 .B8 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -644px -82px; }
+.xnMain .xnM1 .B9 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -736px -82px; }
+.xnMain .xnM1 .B10 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -828px -82px; }
+.xnMain .xnM1 .B11 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -920px -82px; }
+.xnMain .xnM1 .B12 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -1020px -82px; }
+.xnMain .xnM1 .B13 { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -1104px -82px; }
+.xnMain .xnM1 .B1:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat 0px 2px; }
+.xnMain .xnM1 .B2:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -92px 2px; }
+.xnMain .xnM1 .B3:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -184px 2px; }
+.xnMain .xnM1 .B4:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -276px 2px; }
+.xnMain .xnM1 .B5:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -368px 2px; }
+.xnMain .xnM1 .B6:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -460px 2px; }
+.xnMain .xnM1 .B7:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -552px 2px; }
+.xnMain .xnM1 .B8:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -644px 2px; }
+.xnMain .xnM1 .B9:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -736px 2px; }
+.xnMain .xnM1 .B10:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -828px 2px; }
+.xnMain .xnM1 .B11:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -920px 2px; }
+.xnMain .xnM1 .B12:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -1020px 2px; }
+.xnMain .xnM1 .B13:hover { background:url(xm_list.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/xm_list.jpg*/ no-repeat -1104px 2px; }
+/*项目 Main1结束*/
+.focus_item{ width:1800px; height:340px; margin:0px auto;}
+
+
+/*-----------------------尾部样式----------------------------*/
+.xnFooter { width:100%; height:auto; float:Left; }
+.xnFooter .xnNav { width:100%; height:315px; margin:0px auto; margin-top:1px; background:#f1f1f1; }
+.xnFooter .xnNav .xnNav_1 { width:1200px; height:45px; margin:0px auto; padding:15px 0px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-l { float: left; width: 200px; line-height:37px; font-size:20px; color:#000; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r { float: left; width: 1000px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li { width: 200px; height: 37px; float: left; cursor: pointer; display: inline-block; text-align: center; line-height:37px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a { color: #5c5c5c; text-decoration: none; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a span { width: 45px; height: 40px; float: left; background: url("bt-xm.jpg")/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/bt-xm.jpg*/ no-repeat; cursor: pointer; display: block; transition: all 0.2s linear 0s; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a p { line-height:37px; cursor: pointer; display: block; float: left; font-size:20px; color:#000; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a #b1 { background-position: 0 -40px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a #b2 { background-position: -66px -40px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a #b3 { background-position: -130px -40px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a #b4 { background-position: -195px -40px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li a #b5 { background-position: -260px -40px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li:hover #b1 { background-position: 0 5px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li:hover #b2 { background-position: -66px 6px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li:hover #b3 { background-position: -130px 2px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li:hover #b4 { background-position: -195px 5px; }
+.xnFooter .xnNav .xnNav_1 .xnNav_1-r ul li:hover #b5 { background-position: -260px 4px; }
+.xnFooter .xnNav .xnNav_2 { width:1200px; height: 242px; margin:0px auto; }
+.xnFooter .xnNav .xnNav_2 a { border-radius: 2px; outline: medium none; padding: 0 5px 2px; text-decoration: none; transition: all 0.3s linear 0s; }
+.xnFooter .xnNav .xnNav_2 a:hover { background: none repeat scroll 0 0 #B70050; color: #fff; }
+.xnFooter .xnNav .xnNav_2 dl { width: 200px; float: left; }
+.xnFooter .xnNav .xnNav_2 dt { width: 200px; float: left; }
+.xnFooter .xnNav .xnNav_2 dt span { width: 24px; background: url("bt-xm-l.jpg")/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/bt-xm-l.jpg*/ no-repeat; display: inline-block; float: left; height: 24px; margin-right: 5px; margin-top: 7px; transition: all 0.2s linear 0s; }
+.xnFooter .xnNav .xnNav_2 dl dt p { font-size:16px; }
+.xnFooter .xnNav .xnNav_2 dl dt p a { line-height:36px; color:#898989; }
+.xnFooter .xnNav .xnNav_2 dl dt p a:hover { text-decoration: none; }
+.xnFooter .xnNav .xnNav_2 dl dt p #c1 { background-position: -26px 0; }
+.xnFooter .xnNav .xnNav_2 dt p:hover #c1 { background-position: 0 0; }
+.xnFooter .xnNav .xnNav_2 dl dt p #c2 { background-position: -26px -27px; }
+.xnFooter .xnNav .xnNav_2 dt p:hover #c2 { background-position: 0 -27px; }
+.xnFooter .xnNav .xnNav_2 dl dt p #c3 { background-position: -26px -54px; }
+.xnFooter .xnNav .xnNav_2 dt p:hover #c3 { background-position: 0 -54px; }
+.xnFooter .xnNav .xnNav_2 dl dt p #c4 { background-position: -26px -83px; }
+.xnFooter .xnNav .xnNav_2 dt p:hover #c4 { background-position: 0 -83px; }
+.xnFooter .xnNav .xnNav_2 dl dt p #c5 { background-position: -26px -110px; }
+.xnFooter .xnNav .xnNav_2 dt p:hover #c5 { background-position: 0 -110px; }
+.xnFooter .xnNav .xnNav_2 dl dt p #c6 { background-position: -26px -138px; }
+.xnFooter .xnNav .xnNav_2 dt p:hover #c6 { background-position: 0 -138px; }
+.xnFooter .xnNav .xnNav_2 ul { float: left; width: 200px; }
+.xnFooter .xnNav .xnNav_2 li { padding-left: 38px; }
+.xnFooter .xnNav .xnNav_2 li a { font-size:14px; color:#898989; line-height:36px; }
+.xnFooter .xnNav .xnNav_2 li a:hover { text-decoration: none; }
+.xnNav_2-1 { width: 160px; line-heig:36px; }
+.xnFooter .xnFootMSG { width:100%; height:auto; margin:0px auto; background:url(bottom-bg.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/bottom-bg.jpg*/ center top; position:relative; }
+.xnFooter .xnFootMSG .xnConter { width:1200px; height:310px; margin:0px auto; }
+.xnFooter .xnFootMSG .xnLeft { width:745px; height:auto; float:left; }
+.xnFooter .xnFootMSG .xnLeft .xnLogo { width:730px; *_width:715px;
+height:84px; background:url(index_footer_logo.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_logo.png*/ no-repeat left bottom; *_background:url(index_footer_logo.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_logo.jpg*/ no-repeat left bottom;
+float:left; margin:26px 0px 0px 15px; }
+.xnFooter .xnFootMSG .xnLeft .xnText { width:730px; *_width:715px;
+height:auto; float:left; padding:26px 0px 0px 20px; color:#FFF; }
+.xnFooter .xnFootMSG .xnLeft .xnText p { font-size:14px; line-height:25px; font-family:"宋体"; }
+.xnFooter .xnFootMSG .xnLeft .xnText p a{ color:#fff; text-decoration:none}
+.xnFooter .xnFootMSG .xnRight { width:455px; height:auto; float:left; }
+.xnFooter .xnFootMSG .xnRight .xnEWM { width:315px; height:117px; float:left; background:url(index_xnfooter_2wm.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_xnfooter_2wm.png*/ no-repeat left bottom; padding:36px 0px 0px 140px; }
+.xnFooter .xnFootMSG .xnRight .xnEWM .f16 { font-size:14px; color:#FFF; float:left; line-height:30px; padding-bottom:20px; }
+.xnFooter .xnFootMSG .xnRight .xnEWM .Search_Frame { width:300px; height:33px; float:Left; background:url(index_footer_Search.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_Search.jpg*/ no-repeat left top; }
+.xnFooter .xnFootMSG .xnRight .xnEWM .Search_Frame .input1 { width:168px; height:25px; line-height:25px; font-size:14px; color:#000; float:left; border:0px; margin:3px 0px 0px 2px; padding-left:5px; border:0px; }
+.xnFooter .xnFootMSG .xnRight .xnEWM .Search_Frame .input2 { width:61px; height:33px; line-height:33px; float:left; text-align:center; background:url(index_footer_Search-04.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_Search-04.jpg*/ no-repeat left top; border:0px; margin:0px; padding:0px; }
+.xnFooter .xnFootMSG .xnRight .xnEWM .Search_Buttom { width:43px; height:33px; float:left; background:url(index_footer_Search-05.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_Search-05.jpg*/ no-repeat left top; border:0px; cursor: pointer; border:0px; margin:0px; padding:0px; }
+.xnFooter .xnFootMSG .xnH1 { width:100%; height:51px; margin:0px auto; position:absolute; top:240px; left:0px; background:url(index_footer_xx.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_xx.png*/ no-repeat 0px 23px; }
+.xnFooter .xnFootMSG .xnH1 .xnHIc { width:1200px; height:51px; margin:0px auto; background:url(index_footer_icon.png)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_icon.png*/ no-repeat 740px 0px; *_background:url(index_footer_icon.jpg)/*tpa=http://www.ubeauty.cn/huameiTemplets/201407/images/index_footer_icon.jpg*/ no-repeat 740px 0px;
+}
+/*xnFooter结束*/

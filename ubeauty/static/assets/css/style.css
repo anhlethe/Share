@@ -1,0 +1,130 @@
+@charset "gb2312";
+/* CSS Document */
+div, p, h1, h2, h3, h4, h5, h6, ul, li, dl, dt, dd, img, body {margin:0px; padding:0px; list-style-type:none;text-decoration:none; font-size:12px; border:0px}
+clearFix:after { clear:both; display:block; visibility:hidden; height:0; line-height:0; content:''; }
+.clearFix { zoom:1;clear: both;height: 1px}
+
+.HM_Content{width:100%;height:auto; float:left}
+.banner_bg{ width:100%; height:auto; background:url(../images/banner_bg.jpg) no-repeat center top}
+.banner{width:1000px;height:auto;margin:0px auto}
+
+.HM_Main{width:100%; height:auto; margin:0px auto; }
+.bg1{background:url(../images/c1.jpg) no-repeat center top; height:605px}
+.bg2{background:url(../images/c2.jpg) no-repeat center top; height:903px}
+.bg3{background:#e1e1e1; height:508px}
+.bg4{background:url(../images/c6.jpg) no-repeat center top; height:919px}
+.bg5{background:#e1e1e1; height:208px}
+
+
+.HM_div{width:1000px; height:auto; margin:0 auto}
+.HM_div .f40{font-size:40px; text-align:center; margin:0 auto; line-height:40px; color:#256bbe; font-weight:bold; padding:60px 0 0}
+.HM_div .f1{width:1000px; height:333px; font-size:23px; float:left; line-height:34px; color:#646363; padding:30px 0 0; margin-top:30px; background:url(../images/bd.gif) no-repeat left top}
+.HM_div .f1 font{font-size:30px}
+.HM_div .f1 .c000{ color:#000}
+.HM_div .f1 .fwcceae00{ font-weight:bold; color:#ceae00}
+.HM_div .f1 .fwca37f00{ font-weight:bold; color:#a37f00}
+.HM_div .f1 .fwcebbc00{ font-weight:bold; color:#ebbc00}
+.HM_div .f1 .fwcc4ab00{ font-weight:bold; color:#c4ab00}
+.HM_div .f1 .fwc8e7200{ font-weight:bold; color:#8e7200}
+.HM_div .f1 .f33wc424242{font-size:33px; font-weight:bold; color:#424242}
+.HM_div .a1{width:860px; height:auto; font-size:24px;  color:#305f92; display:block; text-align:left; margin:0 auto}
+.HM_div .a1 span{ float:left; text-decoration:underline; line-height:41px; font-size:24px; text-align:left; display:block;width: 590px} 
+.HM_div .a1 a{display:block; background:#305f92; width:220px; height:41px; line-height:41px; text-align:center; text-decoration:none; color:#FFF; float:left; -webkit-border-radius: 3px;-moz-border-radius: 3px}
+
+.HM_div .d2{width:1000px; height:auto; margin:0px auto}
+
+.HM_div .d2 .f30cc2c2c2{font-size:30px; color:#c2c2c2; text-align:center; line-height:20px; margin:0 auto; padding-top:40px}
+.HM_div .d2 .f40fwcfff{font-size:40px; color:#ffffff; text-align:center; line-height:60px; margin:0 auto; height:60px; padding-bottom:40px}
+
+.HM_div .d2 .lf{width:259px; height:auto; float:left; margin-bottom:54px}
+.HM_div .d2 .rg{width:708px; height:auto; float:left; padding-left:33px;  margin-bottom:54px}
+.HM_div .d2 .rg span{  width:14px; height:57px; float:left; display:block}
+.HM_div .d2 .rg .sp_1{background:url(../images/icon.png) no-repeat -0px -40px; margin-right:12px; }
+.HM_div .d2 .rg .sp_2{background:url(../images/icon.png) no-repeat -22px -40px; margin-left:12px; }
+
+.HM_div .d2 .rg .tit{width:640px; height:auto;font-size:36px; line-height:36px; color:#ae8700; padding-bottom:10px; float:left}
+.HM_div .d2 .rg .tit_s1{ text-align:right}
+
+.HM_div .d2 .rg .cont{width:600px; height:auto; float:left; padding:10px 0px 0px 20px}
+.HM_div .d2 .rg .cont li{width:600px; height:auto; float:left; color:#FFF; font-size:18px; line-height:30px}
+.HM_div .d2 .rg .cont li .num{width:32px; height:32px; background:url(../images/icon.png) no-repeat 0px 0px; float:left; color:#FFF; font-size:30px; text-align:center; line-height:32px; margin-right:10px}
+.HM_div .d2 .rg .cont li font{font-size:20px}
+
+.HM_Main .d3{width:1000px; height:auto; margin:0 auto}
+.HM_Main .f30c000{font-size:30px; color:#000000; text-align:center; line-height:20px; margin:0 auto; padding-top:50px}
+.HM_Main .f40fwc256bbe{font-size:40px; color:#256bbe; text-align:center; line-height:60px; margin:0 auto; height:60px; padding-bottom:20px}
+
+.HM_Main .d3 .lf{width:402px; height:auto; float:left; margin-bottom:30px}
+.HM_Main .d3 .rg{width:598px; height:auto; float:left; margin-bottom:30px; text-indent:2em; line-height:30px; font-size:18px}
+.HM_Main .d3 .rg .f24cae8700{font-size:24px; color:#ae8700;font-weight:bold}
+.HM_Main .d3 .rg .f22{font-size:22px; font-weight:bold}
+
+.HM_Main .d3 .rg .span1{width:350px; height:auto; line-height:33px; background:#0b54a3; color:#FFF; display:block; font-size:20px; text-align:center; text-indent:0em; margin:0px 0px 10px 10px}
+.HM_Main .d3 .rg p{width:460px; height:auto; line-height:27px; font-size:16px; text-align:left; text-indent:0em}
+.HM_Main .d3 .jbx{width:100%; height:1px; background:url(../images/jbx.jpg) no-repeat center top; margin-bottom:30px}
+.HM_Main .d3 .k1{width:1000px; height:auto; float:left}
+.HM_Main .d3 .k1 .k1-img{width:273px; height:auto; float:left}
+.HM_Main .d3 .k1 .k1-cont{width:695px; height:auto; float:left; padding:20px 0px 0px 32px}
+.HM_Main .d3 .k1 .k1-cont .tit{width:550px; height:auto; float:left}
+.HM_Main .d3 .k1 .k1-cont .tit span{width:33px; height:64px; margin:16px 15px 0px 0px; float:left; display:block}
+.HM_Main .d3 .k1 .k1-cont .tit .bs1{ background:url(../images/icon.png) no-repeat -46px -37px}
+.HM_Main .d3 .k1 .k1-cont .tit .bs2{ background:url(../images/icon.png) no-repeat -82px -37px}
+.HM_Main .d3 .k1 .k1-cont .tit .bs3{ background:url(../images/icon.png) no-repeat -123px -37px}
+.HM_Main .d3 .k1 .k1-cont .tit .bk{width:280px; height:40px; float:left; background:url(../images/bk.jpg) no-repeat center top; font-size:20px; line-height:40px; text-align:center;font-weight: bold;}
+.HM_Main .d3 .k1 .k1-cont .tit  b{width:500px; height:auto; line-height:30px; display:block; font-size:22px; color:#ae8700; float:left}
+.HM_Main .d3 .k1 .k1-cont .test{width:640px; height:auto; float:left; font-size:16px; line-height:27px; padding:10px 0px}
+.HM_Main .d3 .k1 .k1-cont .test a{ text-decoration:none; color:#d50049}
+
+.HM_Main .d4{width:1000px; height:auto; margin:0 auto}
+.HM_Main .d4 .p1{width:210px; height:290px; float:left; color:#FFF; font-size:15px; padding:15px}
+.HM_Main .d4 .tit{width:210px; height:auto; float:left; text-align:center}
+.HM_Main .d4 b{font-size:30px;  }
+.HM_Main .d4 font{font-size:24px}
+.HM_Main .d4 hr{height:1px;border:none;border-top:1px dashed #fff; margin:10px 0px 15px; *_margin:0px}
+.HM_Main .d4 p{font-size:15px;line-height:19px; text-align: justify;}
+.HM_Main .d4 .bc1{background:#00578c; margin-right:13px}
+.HM_Main .d4 .bc2{background:#342a6a; margin-right:13px}
+.HM_Main .d4 .bc3{background:#ab1643; margin-right:13px}
+.HM_Main .d4 .bc4{background:#846620}
+
+.HM_Main .d5{width:1000px; height:auto; margin:0 auto}
+.HM_Main .d5 .f1{width:1000px; height:auto;  float:left; margin-bottom:30px; text-align: justify;}
+.HM_Main .d5 .f1 p {width:1000px; height:auto; line-height:30px; float:left; text-indent:2em; font-size:18px}
+.HM_Main .d5 .f1 p .f24cae8700{font-size:24px; color:#ae8700;font-weight: bold;}
+.HM_Main .d5 .f1 p .f22c626262{font-size:22px; color:#626262 }
+
+.HM_Main .d6{width:1000px; height:auto; margin:0 auto}
+.HM_Main .d6 .experts{width:615px; height:auto; background:#FFF; margin:30px 0px 0px 325px; float:left;display:inline; padding:27px}
+.HM_Main .d6 .f15{width:555px; font-size:15px; float:left; line-height:22px; padding:15px 30px;}
+.HM_Main .d6 .f15ti{width:555px; font-size:15px; float:left; line-height:28px; padding:0px 30px; text-indent:2em}
+.HM_Main .d6 .f15ti .f18w{font-size:18px; font-weight:bold;}
+
+.HM_Main .d6 .link{width:235px; height:28px; margin:0 auto; padding:15px 0px; clear:left;}
+.HM_Main .d6 a{width:110px; height:28px; line-height:28px; display:block; float:left; text-decoration:none; text-align:center; color:#000; font-size:14px; font-weight:bold;}
+.HM_Main .d6 .cd8af41{background:#d8af41; margin-right:15px; display:inherit;}
+.HM_Main .d6 .cb6004f{background:#b6004f;}
+
+.HM_Main .d7{width:1000px; height:auto; margin:0 auto;}
+.HM_Main .d7 .p1{width:319px; height:498px; float:left; margin:0 21px 50px 0;}
+.HM_Main .d7 .mr0{margin-right:0px}
+
+
+.HM_Main .d8{width:1000px; height:auto; margin:0 auto;}
+.HM_Main .d8 .p_con {height: 514px;width:1000px; float:left; padding-top:20px; }
+#center {height: 494px; position: absolute; width: 1000px;}
+#slider {Z-INDEX: 1;POSITION: absolute;	WIDTH: 1000px;HEIGHT: 494px;OVERFLOW: hidden;}
+#slider .slide {Z-INDEX: 10; POSITION: absolute; WIDTH: 368px;  HEIGHT: 494px; OVERFLOW: hidden; CURSOR: default; text-align:left;}
+#slider .diapo {POSITION: absolute; VISIBILITY: visible; width:368px; height:494px; }
+
+.HM_Main .d9{width:1000px; height:auto; margin:0 auto;}
+.HM_Main .d9 .p1{width:233px; height:222px; float:left; margin:0 22px 40px 0;}
+.HM_Main .d9 .mr0{margin-right:0px}
+
+
+/*++++++++++NEW+++++++++++++*/
+
+.dinh-dang-p{
+	font-size: 14px;
+    text-align: justify;
+    line-height: 24px;
+}

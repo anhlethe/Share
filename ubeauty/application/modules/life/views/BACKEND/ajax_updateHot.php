@@ -1,0 +1,1 @@
+<a href="javascript:void(0)" onclick="updateHot(<?=$id?>,<?=$hot?>,'<?=$module?>')"><img alt="Checked item" src="<?=PATH_URL.'static/images/admin/icons/'?><?php ($hot==0) ? print 'uncheck_16x16.png' : print 'check_16x16.png' ?>" /></a>

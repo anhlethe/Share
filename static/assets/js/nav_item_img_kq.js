@@ -1,0 +1,1 @@
+<!--document.write('<a target="_blank" onclick="openZoosUrl(\'chatwin\',\'\');return false;" href="javascript:void(0)"><img src="/huameiTemplets/201407/img/item_banner_kq.jpg"></a>');-->
